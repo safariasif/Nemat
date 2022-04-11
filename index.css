@@ -1,0 +1,43 @@
+
+/*start custome Navbar style */
+nav{
+    background-color: rgba(0,34,64,255);
+}
+.logo-image{
+    width: 30px;
+    height: 30px;
+}
+
+/* end of custome navbar style */
+
+
+/* start of slider */
+
+.col-lg-12 .carousel .carousel-inner img{
+    border-radius: 20px;
+}
+.col-lg-12 .carousel .carousel-indicators button{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.col-lg-12 .carousel .carousel-indicators .active{
+    background-color: rgb(53, 226, 226);
+    border-radius: 10%;
+    width: 20px;
+
+}
+/* end of slider */
+
+/* start of products */
+
+.products .col{
+    border-radius: 20px;
+}
+.products .col .card{
+    border-radius: 20px;
+}
+.products .col .card img{
+    border-radius: 20px;
+}
+/* end of products */

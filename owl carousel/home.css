@@ -1,0 +1,117 @@
+
+
+/* product section  */
+
+.product-sec-new{
+    padding: 20px 10px;
+    font-size: 1em;
+}
+
+ .shoping-card{
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, .2);
+    margin: 10px 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.shoping-card .img-sec{
+    position: relative;
+}
+
+.shoping-card .img-sec .hot-offer{
+    background-color: #e74c3c;
+    color: white;
+    padding: 3px 5px;
+    border-radius: 5px;
+    position: absolute;
+    right: 10px;
+    top : 10px;
+    font-size: .9em;
+}
+
+.shoping-card .img-sec .stars{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #f1c40f;
+}
+
+.shoping-card .title{
+    color: #333;
+    margin: 15px;
+}
+
+.shoping-card .buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15px;
+}
+
+
+.shoping-card .buttons .right .price{
+    color: #666;
+    font-weight: bold;
+}
+
+.shoping-card .buttons .left{
+    display: flex;
+}
+
+.shoping-card .buttons .left .extend-btn{
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2ecc71;
+    color: white;
+    width: 40px;
+    padding : 8px 12px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .75s;
+
+}
+
+.shoping-card .buttons .left .extend-btn:hover{
+    width: 100px;
+}
+
+.shoping-card .buttons .left .extend-btn:hover .b-text{
+    display: block;
+}
+
+.shoping-card .buttons .left .extend-btn .b-text{
+    display: none;
+    color: white;
+}
+
+.shoping-card .buttons .left .extend-btn  .b-icon{
+    color: white;
+    padding-top: 3px;
+}
+
+
+/* supper offer sesction  */
+
+
+.owl-stage-outer{
+    direction: ltr;
+}
+
+.dragble-list .title{
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+.dragble-list .title span{
+    font-size: 1.2em;
+    color: #444;
+    border-bottom: 1.5px solid #e74c3c;
+}
+
+
+
+
+
