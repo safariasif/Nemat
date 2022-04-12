@@ -1,60 +1,121 @@
-
 /*start custome Navbar style */
-nav{
-    background-color: rgba(0,34,64,255);
+nav {
+  background-color: rgba(0, 34, 64, 255);
 }
-.logo-image{
-    width: 30px;
-    height: 30px;
+.logo-image {
+  width: 30px;
+  height: 30px;
 }
 
 /* end of custome navbar style */
 
-
 /* start of slider */
 
-.col-lg-12 .carousel .carousel-inner img{
-    border-radius: 20px;
+.col-lg-12 .carousel .carousel-inner img {
+  border-radius: 20px;
 }
-.col-lg-12 .carousel .carousel-indicators button{
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
+.col-lg-12 .carousel .carousel-indicators button {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
 }
-.col-lg-12 .carousel .carousel-indicators .active{
-    background-color: rgb(53, 226, 226);
-    border-radius: 10%;
-    width: 20px;
-
+.col-lg-12 .carousel .carousel-indicators .active {
+  background-color: rgb(53, 226, 226);
+  border-radius: 10%;
+  width: 20px;
 }
 /* end of slider */
 
 /* start of products */
 
-.products .col{
-    border-radius: 20px;
+.products .col {
+  border-radius: 20px;
 }
-.products .col .card{
-    border-radius: 20px;
+.products .col .card {
+  border-radius: 20px;
 }
-.products .col .card img{
-    border-radius: 20px;
+.products .col .card img {
+  border-radius: 20px;
 }
 /* end of products */
 
 /* start fo searh box */
-.search-box{
-    border-right: 0px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    padding: 10px 10px;
+.search-box {
+  border-right: 0px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  padding: 10px 10px;
 }
-.search-box:focus{
-    outline: none;
-    box-shadow: none;
+@media screen and (max-width: 500px) {
+  .search-box {
+    padding: 7px 5px;
+  }
 }
-.search-icon{
-    border-end-end-radius: 15px;
-    border-top-right-radius: 15px;
-    padding: 10px 10px;
+@media screen and (max-width: 500px) {
+  .search-icon{
+    padding: 0;
+    margin: 0px;
+    font-size: 10px;
+    color: red;
+  }
+}
+.search-box:focus {
+  outline: none;
+  box-shadow: none;
+}
+.search-icon {
+  border-end-end-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 10px 10px;
+  font-size: 25px;
+  color: white;
+}
+
+.product-search-page {
+  background-color: rgba(245, 245, 245, 255);
+}
+.products-item {
+  border-radius: 15px;
+}
+.accordion {
+  padding: 4px;
+  border-radius: 10px;
+}
+.accordion-item {
+  border-radius: 10px;
+  border: 1px solid red;
+}
+.accordion accordion-flush:focus {
+  outline: none;
+}
+.accordion-header {
+  border-radius: 10px;
+}
+.accordion-header:focus {
+  outline: none;
+}
+.accordion-header button:focus {
+  outline: none;
+}
+.products-row .col {
+  border-radius: 15px;
+}
+.products-row .col .card {
+  border-radius: 15px;
+}
+.products-row .col .card .card-header {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.pecentage {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 15px;
+}
+@media screen and (max-width: 800px) {
+  .product-list {
+    overflow-x: hidden;
+    overflow-x: scroll;
+  }
 }
