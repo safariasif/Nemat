@@ -119,3 +119,16 @@ nav {
     overflow-x: scroll;
   }
 }
+
+.line-ignor{
+  text-decoration: line-through;
+}
+.products{
+  background-color: #f5f5f5;
+}
+.owl-carousel .item{
+  border-radius: 20px;
+}
+.owl-carousel .item .img-fluid{
+  border-radius: 20px;
+}
