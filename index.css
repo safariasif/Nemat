@@ -107,6 +107,16 @@ nav {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
+.products .row .col-12 .owl-carousel .item{
+  position: relative;
+}
+.products .row .col-12 .owl-carousel .item .new{
+  position: absolute;
+}
+.products .row .col-12 .owl-carousel .item .img-fluid{
+      height: 200px;
+      width: 200px;
+}
 .pecentage {
   border-top-left-radius: 15px;
   border-bottom-left-radius: 5px;
@@ -131,4 +141,19 @@ nav {
 }
 .owl-carousel .item .img-fluid{
   border-radius: 20px;
+}
+
+@media (max-width: 610px){
+    .archive-header .nav-sort-tabs-res{
+        overflow-x: auto;
+    }
+
+    .archive-header ul.sort-tabs-options{
+        width: 700px;
+        overflow-x: auto;
+    }
+
+    .middle-container .form-checkout .form-checkout-row .validate-required{
+        width: 100%;
+    }
 }
