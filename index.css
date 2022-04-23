@@ -6,7 +6,16 @@ nav {
   width: 30px;
   height: 30px;
 }
-
+.nav-item{
+  cursor: pointer;
+}
+.nav-item .nav-link {
+  color: gray;
+}
+.nav-item .active{
+  color: blue;
+  font-weight: bold;
+}
 /* end of custome navbar style */
 
 /* start of slider */
