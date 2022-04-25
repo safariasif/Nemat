@@ -1,4 +1,9 @@
 /*start custome Navbar style */
+a{
+  text-decoration: none;
+  color: gray;
+  
+}
 nav {
   background-color: rgba(0, 34, 64, 255);
 }
