@@ -18,7 +18,7 @@ nav {
   color: gray;
 }
 .nav-item .active{
-  color: blue;
+  color: rgba(0, 34, 64, 255);
   font-weight: bold;
 }
 /* end of custome navbar style */
@@ -41,7 +41,14 @@ nav {
 /* end of slider */
 
 /* start of products */
-
+.border-products1{
+  
+  border-bottom:1px solid rgba(0, 34, 64, 255);
+}
+.border-products{
+  
+  border-bottom:2px solid rgba(0, 34, 64, 255);
+}
 .products .col {
   border-radius: 20px;
 }
@@ -50,6 +57,9 @@ nav {
 }
 .products .col .card img {
   border-radius: 20px;
+}
+.products .row .col-12 .owl-carousel .item .text-center .price{
+  color:rgba(0, 34, 64, 255) ;
 }
 /* end of products */
 
@@ -83,6 +93,7 @@ nav {
   padding: 10px 10px;
   font-size: 25px;
   color: white;
+   background-color: rgba(0, 34, 64, 255);
 }
 
 .product-search-page {
@@ -91,6 +102,9 @@ nav {
 .products-item {
   border-radius: 15px;
 }
+.product-items .tab-content .tab-pane .row .col-lg-3 section .title h5{
+  color: rgba(0, 34, 64, 255);
+} 
 .accordion {
   padding: 4px;
   border-radius: 10px;
@@ -170,4 +184,64 @@ nav {
     .middle-container .form-checkout .form-checkout-row .validate-required{
         width: 100%;
     }
+}
+
+.footer{
+  background-color: rgba(0, 34, 64, 255);
+}
+.footer .row .col-lg-3 .list .nav-item a{
+  color: white;
+}
+.footer .row .col-lg-3 .list .nav-item a:hover{
+  color: #61dafb;
+}
+.footer .row .col-lg-6 .configerEmail input{
+  outline: none;
+  border: none;
+  padding: 6px;
+  border-radius: 7px;
+  width: 60%;
+
+  @media screen (max-width:400px) {
+    width:100%;
+  }
+
+ 
+}
+.footer .row .col-lg-6 .configerEmail  button{
+  background-color: #1babd2;
+  color: white;
+  outline: none;
+  padding: 6px 15px;
+  border: none;
+  border-radius: 5px;
+}
+.footer .row .col-lg-6 .configerEmail .configueremail:hover{
+  background-color: #1a8baa;
+}
+
+.footer .row .col-lg-6 .icons .icon{
+  background-color: white;
+  color: rgba(0, 34, 64, 255);
+  padding: 4px;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.footer .row .col-lg-6 .icons .icon:hover{
+  color: #1a8baa;
+}
+.footer .copyright{
+  background-color:rgba(0, 34, 70, 255) ;
+}
+.footer .copyright .safari{
+  color: white;
+  text-decoration: none;
+
+
+}
+.footer .copyright .safari:hover{
+  color: #1a8baa;
 }
